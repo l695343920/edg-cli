@@ -1,0 +1,23 @@
+{
+  "name": "edg-cli",
+  "version": "0.0.4",
+  "description": "我们不生产脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "edg-cli": "./bin/cmd.js"
+  },
+  "keywords": [
+    "edg",
+    "cli"
+  ],
+  "author": "lxp",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1"
+  }
+}
